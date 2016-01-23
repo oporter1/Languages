@@ -1,0 +1,104 @@
+
+
+.row1 {
+  display: flex;
+  justify-content:space-between;
+  margin-left: 300px;
+  margin-right: 300px;
+  /*flex-wrap: wrap;*/
+}
+
+.language {
+  /*padding: 8% 6%;*/
+  border: 2px solid black;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  /*margin-left: -40px;
+  margin-right: -40px;*/
+  background-color: white;
+  text-align: center;
+}
+
+.imgsize {
+  width: 50%;
+  /*border: 2px solid red;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+
+}
+
+.text {
+  font-size: 10pt;
+  text-align: center;
+}
+
+.topjumbotron {
+  height: 500px;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  padding-bottom: 50px;
+
+}
+
+.language:hover {
+  background-color: rgb(36, 152, 127);
+
+}
+
+.panel:hover {
+  background-color: rgb(36, 152, 127);
+}
+
+footer {
+  background-color: rgb(93, 97, 93);
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.buttongroup {
+  display: flex;
+  flex-direction: column;
+  /*margin-right: 200px;*/
+  margin-top: 50px;
+  width: 300px;
+  margin-left: 50px;
+
+}
+
+.compic {
+
+  width: 300px;
+  margin-top: -50px;
+/*
+  margin-right: 50px;*/
+
+
+}
+
+.compandbutton {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.fullcolor:hover {
+  background-color: rgb(36, 152, 127);
+}
+
+/*
+.stopmoving {
+  width: 30%;
+  margin-left: 25%;
+}*/
+
+/*.sidebyside {
+  display: flex;
+  justify-content: space-between;
+}*/
